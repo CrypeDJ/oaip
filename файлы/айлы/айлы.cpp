@@ -135,7 +135,7 @@ void AddStudent(FILE* file, char name[255]) {
         fwrite(&Spisok, sizeof(Students), 1, file);
     }
     fclose(file);
-    cout << "резултат функции\n";
+    cout << "результат функции\n";
     ReadFile(file, name);
     cout << endl;
 }
